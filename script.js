@@ -13,7 +13,7 @@ if(expression === "undefined")
   console.log(key);
   switch (key) {
     
-    case "⌫":
+    case "DEL":
       expression = expression.substring(0, expression.length - 1);
       break;
     case "AC":
@@ -22,10 +22,10 @@ if(expression === "undefined")
     case "=":
       expression = ""+ eval(expression)
       break;
-    case "×":
+    case "ร—":
       expression += "*"
       break;
-     case "÷":
+     case "รท":
       expression += "/"
       break
     default:
